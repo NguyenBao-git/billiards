@@ -1,0 +1,86 @@
+*{margin: 0; padding: 0;}
+         :root {
+            --bgr-color: #504f4f73;
+            --main-color: #191F3A;
+            --sub-color: #EAA023;
+            --text-color: #ffffff;
+            --bg-color: #0C1023;
+            --bd-color: #ffffff91;
+            --bl-color: black;
+        }
+        a{text-decoration: none;}
+        body{display: flex;}
+        #nav {
+            width: 15%;
+            height: 100vh;
+            background-color: var(--bg-color);
+        }
+        .nav-avt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--bgr-color);
+            padding-top: 20px;
+            }
+            .nav-avt{color: var(--text-color);}
+            .nav-avt img {
+                border-radius: 50px;   
+                align-items: center;
+                border: 3px solid var(--text-color);
+            }
+        ul li {
+            list-style-type: none;
+            padding: 20px;
+            transition: all 0.3s;
+            }
+            ul li a {
+                padding-left: 40px;
+                color: var(--text-color);
+                font-size: 18px;
+            }
+            ul li:hover {
+                background-color: var(--bgr-color);
+            }
+        #container{width: 85%; margin-left: 10px;}
+            #container>p{
+                padding: 10px;
+                background-color: var(--bgr-color);
+                border-radius: 5px;
+            }
+            #container>p>a{
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        form{
+            background-color: var(--bgr-color);
+            margin-top: 10px;
+            padding: 20px;
+            }
+            .btn{
+                border-bottom: 1px solid var(--text-color);
+                padding-bottom: 10px;
+            }
+                .btn>button{
+                    padding: 8px 5px;
+                    border-radius: 5px;
+                }
+                .btn-add{background-color: green;}
+                .btn-add>a{color: var(--text-color);}
+                .btn-dele{background-color: red; color: var(--text-color);}
+            .nav-product{
+                display: flex;
+                justify-content: space-around;
+                margin: 20px 0;
+                }
+                .nav-product>input{padding: 6px;width: 300px;border-radius: 7px;border: none;}
+            table{
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                justify-content: center;
+                border-collapse: collapse;
+                }
+                table tr th,td{border: 1px solid black; padding: 10px;}
+table tr input[type="radio"]{width: 20px;}

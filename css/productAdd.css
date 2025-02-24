@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0;}
+         :root {
+            --bgr-color: #504f4f73;
+            --main-color: #191F3A;
+            --sub-color: #EAA023;
+            --text-color: #ffffff;
+            --bg-color: #0C1023;
+            --bd-color: #ffffff91;
+            --bl-color: black;
+        }
+        a{text-decoration: none;}
+        body{display: flex; width: 100%; }
+        #nav {
+            width: 15%;
+            height: 100vh;
+            background-color: var(--bg-color);
+            
+        }
+        .nav-avt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--bgr-color);
+            padding-top: 20px;
+            }
+            .nav-avt{color: var(--text-color);}
+            .nav-avt img {
+                border-radius: 50px;   
+                align-items: center;
+                border: 3px solid var(--text-color);
+            }
+        ul li {
+            list-style-type: none;
+            padding: 20px;
+            transition: all 0.3s;
+            }
+            ul li a {
+                padding-left: 40px;
+                color: var(--text-color);
+                font-size: 18px;
+            }
+            ul li:hover {
+                background-color: var(--bgr-color);
+            }
+
+
+
+figcaption{font-weight: bolder;margin-bottom: 5px;font-size: 17px;}
+input{padding: 8px; width: 300px;border-radius: 5px; border: 1px solid rgba(170, 170, 170, 0.821);}
+#container{
+    width: 85%;
+    margin-left: 50px;
+    }
+    #container>p{
+        background-color: rgb(211, 211, 211);
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    #container>p>a{color: black;
+        font-size: 18px;
+    }
+    form{
+        background-color: rgb(211, 211, 211);
+        border-radius: 10px;
+        padding: 20px 30px;
+        }
+        .data-add{
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .data-describe>p{
+            margin-bottom: 7px;
+        }
+        .data-describe>button{
+            padding: 8px;
+            width: 150px;
+            background-color: rgba(0, 0, 255, 0.759);
+            border-radius: 8px;
+            color: var(--text-color);
+            margin-top: 10px;
+        }
+        
+        
+        
+        
